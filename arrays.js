@@ -5,6 +5,6 @@ function addElementToEndOfArray(array,item){var array2=[...array,item];return ar
 function destructivelyAddElementToEndOfArray(array,item){array.push(item);return array}
 function accessElementInArray(array,index){return array[index]}
 function destructivelyRemoveElementFromBeginningOfArray(array){array.shift();return array}
-function removeElementFromBeginningOfArray(array){var array2=array.slice(1,-0);}
+function removeElementFromBeginningOfArray(array){return array.slice(1,array.length);}
 function destructivelyRemoveElementFromEndOfArray(array){array.pop(); return array;}
 function removeElementFromEndOfArray(array){return array.slice(0,-1);}
