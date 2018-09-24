@@ -7,4 +7,4 @@ function accessElementInArray(array,index){return array[index]}
 function destructivelyRemoveElementFromBeginningOfArray(array){array.shift();return array}
 function removeElementFromBeginningOfArray(array){var array2=array.shift();return array2;}
 function destructivelyRemoveElementFromEndOfArray(array){array.pop(); return array;}
-function removeElementFromBeginningOfArray(array){return array.slice(1,-0);}
+function removeElementFromBeginningOfArray(array){return array.slice(1,-1);}
